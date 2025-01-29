@@ -12,12 +12,12 @@ Donut Fall is a simple and fun web game where you catch falling donuts with a ba
 - Move the basket left (⬅️) and (➡️) right using your keyboard to catch the falling donuts.
 - The game ends when you miss a donut and hits the ground!
 
-🛠️ Technologies Used
+🛠️ Languages Used:
 - HTML for structuring the game.
 - CSS for styling the game.
 - JavaScript for game logic.
 
-🧩 How to Run Locally
+🧩 How to Run Locally:
 - Clone the repository:
 
 git clone https://github.com/your-username/donut-fall-game.git
