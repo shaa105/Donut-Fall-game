@@ -20,8 +20,10 @@ Donut Fall is a simple and fun web game where you catch falling donuts with a ba
 🧩 How to Run Locally:
 - Clone the repository:
 
-git clone https://github.com/your-username/donut-fall-game.git
-
+git clone 
+   ```sh
+https://github.com/your-username/donut-fall-game.git
+```
 - Open the index.html file in your browser to play.
 
 📄 License
