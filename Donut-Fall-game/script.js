@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (gameOver) return;
 
         const fallingObject = document.createElement("img");
-        fallingObject.src = "donut.png"; // Ensure the path is correct
+        fallingObject.src = "donut.png"; 
         fallingObject.classList.add("falling-object");
         fallingObject.style.left = `${Math.random() * (gameWidth - 40)}px`;
         gameContainer.appendChild(fallingObject);
@@ -37,8 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let objectY = fallingObject.offsetTop + 5;
             fallingObject.style.top = `${objectY}px`;
 
-            // Check collision
-            if (objectY > 460) { // Near basket level
+            if (objectY > 460) {
                 if (
                     basketX < fallingObject.offsetLeft + 40 &&
                     basketX + 80 > fallingObject.offsetLeft
@@ -56,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }, 50);
 
-        // Spawn new donuts
+        // Random new donuts
         setTimeout(createFallingObject, Math.random() * 2000 + 1000);
     }
 
